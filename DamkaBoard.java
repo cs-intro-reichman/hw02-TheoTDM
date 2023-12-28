@@ -9,7 +9,12 @@ public class DamkaBoard {
 			System.out.println(" ");
 			for (int i = 0; i < x; i++){
 				if (t){
+					if (i == (x - 1){
+						System.out.print("*");
+					}
+					else {
 					System.out.print("* ");
+					}
 				}
 				else {
 					System.out.print(" *");
