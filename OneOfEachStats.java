@@ -16,7 +16,7 @@ public class OneOfEachStats {
 		// Initailizes a random numbers generator with the given seed value
         Random generator = new Random(seed);  
 		int count = t;
-		int[] familyCount = new int[20];
+		int[] familyCount = new int[20]; //2^20 = 1/million...
 		for (int i = 0; i < 20; i++){
 			familyCount[i] = 0;
 		}
@@ -60,7 +60,7 @@ public class OneOfEachStats {
 		System.out.println("Average: " + avg + " children to get at least one of each gender.");
 		System.out.println("Number of families with 2 children: " + familyCount[2]);
 		System.out.println("Number of families with 3 children: " + familyCount[3]);
-		System.out.println("Number of families with 4 or more children: " + familyCount[4] + moreThen4);
+		System.out.println("Number of families with 4 or more children: " + (familyCount[4] + moreThen4));
 		System.out.println("The most common number of children is " + mode + ".");
 
 		//// In the previous version of this program, you used a statement like:
