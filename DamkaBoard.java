@@ -6,13 +6,9 @@ public class DamkaBoard {
 		int x = Integer.parseInt(args[0]);
 		boolean t = true;
 		for (int j = 0; j < x; j++){
-			System.out.println(" ");
+			System.out.println("");
 			for (int i = 0; i < x; i++){
 				if (t){
-					//if (i == (x - 1)){
-					//	System.out.print("'*'");
-					//}
-					//else {
 					System.out.print("* ");
 				}
 				else {

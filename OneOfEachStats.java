@@ -24,7 +24,7 @@ public class OneOfEachStats {
 			int sum = 0;
 			while (!b || !g){
 				sum += 1;
-				int c = (int) (generator.nextDouble() * 2);
+				double c = generator.nextDouble() * 2;
 				if (c == 0){
 					g = true;
 				}
@@ -44,7 +44,8 @@ public class OneOfEachStats {
 			}
 			count -= 1;
 		}
-		double avg = ((2 * f2) + (3 * f3) + (4 * f4)) / (double)t;
+		//double avg = ((2 * f2) + (3 * f3) + (4 * f4)) / (double)t;
+		double avg = (2 * f2 + 3 * f3 + 4 * f4) / (double) (f2 + f3 + f4);
 		String mode = "4 or more";
 		if (f2 >= f3 && f2 >= f4){
 			mode = "2"; 
