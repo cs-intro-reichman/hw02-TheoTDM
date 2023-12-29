@@ -16,13 +16,7 @@ public class DamkaBoard {
 					System.out.print("* ");
 				}
 				else {
-				if (i == (x - 1)){
-					System.out.print(" * ");
-				}
-				else {
 					System.out.print(" *");
-
-				}
 				}
 			}
 			t = !t;
