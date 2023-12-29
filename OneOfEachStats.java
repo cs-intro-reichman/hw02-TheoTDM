@@ -46,7 +46,7 @@ public class OneOfEachStats {
 		for (int i = 2; i < 20; i++){
 			sumOffamily = sumOffamily + familyCount[i] * i;
 			if (i > 4){
-				moreThen4 += 1;
+				moreThen4 = moreThen4 + familyCount[i];
 			}
 		}
 		double avg = sumOffamily / (double) t;
