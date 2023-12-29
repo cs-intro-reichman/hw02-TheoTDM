@@ -5,8 +5,8 @@
 public class Reverse {
 	public static void main (String[] args){
 		String s = args[0];
-		char mid = '';
-		if (mid % 2 == 0){
+		char mid = ' ';
+		if (s.length() % 2 == 0){
 			mid = s.charAt((s.length() / 2) - 1);
 		}
 		else {
