@@ -60,7 +60,7 @@ public class OneOfEachStats {
 		System.out.println("Average: " + avg + " children to get at least one of each gender.");
 		System.out.println("Number of families with 2 children: " + familyCount[2]);
 		System.out.println("Number of families with 3 children: " + familyCount[3]);
-		System.out.println("Number of families with 4 or more children: " + familyCount[4]);
+		System.out.println("Number of families with 4 or more children: " + familyCount[4] + moreThen4);
 		System.out.println("The most common number of children is " + mode + ".");
 
 		//// In the previous version of this program, you used a statement like:
